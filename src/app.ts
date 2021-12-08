@@ -5,38 +5,32 @@ import createError  from "http-errors";
 import path  from 'path';
 import cookieParser from 'cookie-parser';
 import logger  from 'morgan';
-import bodyparser from "body-parser"
 // const ejs  = require("express-ejs-layouts")
+const  cors =  require ("cors");
 
-// import cors from "cors";
-
-// import  indexRouter  from './routes/index';
-import homeRouter  from './routes/home';
-import usersRouter  from './routes/aboutbook';
 import books from  './routes/books';
-import process_post from  './routes/post_process';
-import getbooks from  './routes/getBooks';
-import deletebook from  './routes/delete';
+import bookapi from  './routes/bookapi';
+import regAndLogin from  './routes/login_reg_auth';
 
 const app = express();
+
+// app.use(cors());//cross origin resoures sharing
 
 app.set("view engine","ejs");
 // view engine setup
 app.set('views', path.join(__dirname, ".././views"));
 
-// app.use(logger('dev'));
+app.use(logger('dev'));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));//url encoded
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-// app.use(cors);//cross origin resoures sharing
+app.use(express.static(path.join(__dirname, '.././public')));
 
-
-app.use('/aboutbook', books);
-// app.use('/aboutbook', usersRouter);
-app.use('/process_post', process_post);
-app.use('/getbook', getbooks);
-app.use('/delete', deletebook);
+//routing for various pages
+app.use('/', books);// comment this during testing
+app.use('/bookapi', bookapi);
+app.use('/', regAndLogin);
 
 // catch 404 and forward to error handler
 app.use(function(err:any, req:Request, res:Response, next:NextFunction) {

@@ -3,11 +3,18 @@ import supertest from 'supertest'
 import app from '../app'
 
 
+// let book;
 //test for GET
-describe('GET /aboutbook/1', () => {
-  test('GET /aboutbook/1', (done) => {
+describe('GET /bookapi/book/1', () => {
+  test('GET /bookapi/book/1', (done) => {
+    // const response = await supertest(app).post('/books').send({
+    //   title: "",
+    //   author: ""
+    // })
+
+    // book = response.body.data
     supertest(app)
-      .get('/aboutbook/1')
+      .get(`/bookapi/book/1`)
       .expect('Content-Type', /json/)
       .expect(200)
       .expect((res) => {
@@ -25,18 +32,18 @@ describe('GET /aboutbook/1', () => {
 
 
   //test for put
-  test('PUT /aboutbook/1', (done) => {
+  test('PUT /', (done) => {
     supertest(app)
-      .put(`/aboutbook/1`)
+      .put(`/bookapi/update/1`)
       .expect('Content-Type', /json/)
       .send({
-        Title: "PHP Programming Course",
-        Author: "Francisco Mendes",
-        datePublished: "Jul 19",
-        description: "My love is here",
-        pageCount: 1000,
-        Genre: "PHP",
-        bookId: 1,
+        Title: "Solidity Course",
+        Author: "Mba Mendes",
+        datePublished: "Jul 2021",
+        description: "Crypto space",
+        pageCount: 300,
+        Genre: "Jerry A",
+        bookId: 2,
         Publisher: "jA"
       })
       .expect(200)
@@ -51,10 +58,10 @@ describe('GET /aboutbook/1', () => {
   })
 
 
-//   // //test for post
-  test('POST /books', (done) => {
+// //   // //test for post
+  test('POST /', (done) => {
     supertest(app)
-      .post('/books')
+      .post('/bookapi/post')
       .expect('Content-Type', /json/)
       .send({
         Title: "PHP Programming Course",
@@ -63,7 +70,7 @@ describe('GET /aboutbook/1', () => {
         description: "My love is here",
         pageCount: 1000,
         Genre: "PHP",
-        bookId: 1,
+        bookId: 32,
         Publisher: "jA",
       })
       .expect(201)
@@ -77,20 +84,17 @@ describe('GET /aboutbook/1', () => {
       })
   })
 
-//   //test for delete
-  test('DELETE /delete/1', (done) => {
+// //   //test for delete
+  test('DELETE /', (done) => {
     supertest(app)
-      .delete('/delete/1')
+      .delete('/bookapi/delete/1')
       .expect('Content-Type', /json/)
       .send({
         Title: "PHP Programming Course",
         Author: "Francisco Mendes",
         datePublished: "Jul 19",
         description: "My love is here",
-        pageCount: 1000,
-        Genre: "PHP",
-        bookId: 1,
-        Publisher: "jA",
+       
       })
       .expect(200)
       .expect((res) => {

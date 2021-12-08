@@ -1,312 +1,45 @@
 [
     {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "Java Programming Course",
-        "Author": "Francisco Mendes ",
-        "datePublished": "Jul 19",
-        "description": "My description is here",
-        "pageCount": 768,
-        "Genre": "java",
+        "title": "Javascript programming language",
+        "author": "Jerry",
+        "datePublished": "2021-12-08",
+        "description": "                                                                                                Javascript programming language\n            \n            \n            \n            \n            \n            ",
+        "pageCount": "200",
+        "genre": "all of us",
         "bookId": 2,
-        "Publisher": "jA"
+        "publisher": "idoko and jerry",
+        "imageUrl": "https://th.bing.com/th/id/R.7c7c1ece345294d2fd37d62c9c3a5d99?rik=LBePt0AXSdkr0A&pid=ImgRaw&r=0"
     },
     {
-        "Title": "Python Programming Course",
-        "Author": "Francisco Mendes ",
-        "datePublished": "Jul 19",
-        "description": "My Python is here",
-        "pageCount": 324,
-        "Genre": "Sundny",
+        "title": "It felt  like a kiss.",
+        "author": "Sarra",
+        "datePublished": "2021-12-01",
+        "description": "                                                                                                It felt  like a kiss ...\n            \n            \n            \n            \n            \n            ",
+        "genre": "idoko",
         "bookId": 3,
-        "Publisher": "jA"
+        "publisher": "Parabin",
+        "imageUrl": "https://1.bp.blogspot.com/-fFTvnRJoqYU/VYmJmXkSt4I/AAAAAAAAAvU/r84rhVedbzE/s1600/kiss.jpg"
     },
     {
-        "Title": "Live of christ",
-        "Author": "James Ameh ",
-        "datePublished": "Jul 19",
-        "description": "My description is here",
-        "pageCount": 100,
-        "Genre": "Samuel",
+        "title": "Be Unique is a good thing",
+        "author": "Darwin",
+        "datePublished": "2021-12-07",
+        "description": "Be Unique is a good thing",
+        "pageCount": 1323,
+        "genre": "Samuel",
         "bookId": 4,
-        "Publisher": "Frank"
+        "publisher": "Jerrysofttechy Inc.",
+        "imageUrl": "https://th.bing.com/th/id/R.e5fa5a3654f5ec7f2f4284831b8ffe2b?rik=ogm2O1dFg%2b7c5w&pid=ImgRaw&r=0"
     },
     {
-        "Title": "dwew",
-        "Author": "ewew",
-        "datePublished": "2021-11-24",
-        "Description": "gfgfgf",
-        "pageCount": "434",
-        "Genre": "gf",
-        "bookId": 5,
-        "Publisher": "fgf"
-    },
-    {
-        "Title": "dwew",
-        "Author": "ewew",
-        "datePublished": "2021-11-24",
-        "Description": "gfgfgf",
-        "pageCount": "434",
-        "Genre": "gf",
-        "bookId": 6,
-        "Publisher": "fgf"
-    },
-    {
-        "Title": "Tom and jerry",
-        "Author": "cartton",
-        "datePublished": "2021-11-24",
-        "Description": "testing",
-        "pageCount": "3",
-        "Genre": "idoko",
-        "bookId": 7,
-        "Publisher": "agada"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 1000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 1000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "PHP Programming Course",
-        "Author": "Francisco Mendes",
-        "datePublished": "Jul 19",
-        "description": "My love is here",
-        "pageCount": 10000,
-        "Genre": "PHP",
-        "bookId": 1,
-        "Publisher": "jA"
-    },
-    {
-        "Title": "Book of Life",
-        "Author": "David Momoh",
-        "datePublished": "2021-11-24",
-        "Description": "This  book is all about  religion of life ",
+        "title": "Rich dad Poor dad-",
+        "author": "Robert",
+        "datePublished": "2021-12-17",
+        "description": "Rich Dad Poor Dad Is an inspiration books that teaches\n                \n                ",
         "pageCount": "232",
-        "Genre": "Gerry",
-        "bookId": 31,
-        "Publisher": "Jerry"
+        "genre": "Jerry soft techy",
+        "bookId": 5,
+        "publisher": "Sandra Inc.",
+        "imageUrl": "https://th.bing.com/th/id/R.8dd33c8f614f5bf8d1857ae23856938a?rik=4UuXxAwflnncvA&pid=ImgRaw&r=0"
     }
 ]
